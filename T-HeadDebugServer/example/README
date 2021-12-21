@@ -1,0 +1,23 @@
+There are a example about how to use to target interfaces.
+
+FILE LIST:
+*.bit   	---- The configration of cklink pros.
+*.iic		---- The firmwares of cklink pros.
+*.hex   	---- The firmwares of cklink lites.
+includes	---- The headers of the libTarget.dll.
+linux   	---- The project building with Makefile, only in Linux.
+main.c		---- The example.
+tdescriptions	---- The register descriptions.
+vs2015		---- The project building with VS2015, only in Windows.
+
+HOW TO BUILD:
+Linux:
+	cd linux && make
+Windows:
+	open vs2015/testTarget.proj with vs2015 and build
+
+
+NOTICE:
+* Before you run the example, you must connect your target to the host.
+* You must run as root in linux.
+
